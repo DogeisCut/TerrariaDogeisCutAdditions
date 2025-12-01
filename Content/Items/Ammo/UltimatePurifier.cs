@@ -9,7 +9,7 @@ namespace DogeisCutAdditions.Content.Items.Ammo
 	{
 		public override void SetStaticDefaults() {
 			Item.ResearchUnlockCount = 99;
-			ItemID.Sets.SortingPriorityTerraforming[Type] = 101; // One past dirt solution
+			ItemID.Sets.SortingPriorityTerraforming[Type] = 101;
 		}
 
 		public override void SetDefaults() {
@@ -24,13 +24,12 @@ namespace DogeisCutAdditions.Content.Items.Ammo
 	public class UltimatePurifierProjectile : ModProjectile
 	{
 		public ref float Progress => ref Projectile.ai[0];
-		// Solutions shot by the terraformer get an increase in conversion area size, indicated by the second AI parameter being set to 1
+
 		public bool ShotFromTerraformer => Projectile.ai[1] == 1f;
 
 		public override void SetDefaults() {
-			// This method quickly sets the projectile properties to match other sprays.
 			Projectile.DefaultToSpray();
-			Projectile.aiStyle = 0; // Here we set aiStyle back to 0 because we have custom AI code
+			Projectile.aiStyle = 0;
 		}
 
 		public override bool? CanDamage() => false;

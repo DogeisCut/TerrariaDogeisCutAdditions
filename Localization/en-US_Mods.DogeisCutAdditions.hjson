@@ -1,13 +1,9 @@
 # This file will automatically update with entries for new content after a build and reload.
 
 Items: {
-	ChunkDeleter: {
-		DisplayName: ChunkDeleter
-		Tooltip:
-			'''
-			Similar to that of the errors
-			commonly seen in another game...
-			'''
+	DeveloperMultitool: {
+		DisplayName: Developer Multitool
+		Tooltip: ""
 	}
 
 	GreenSquare: {

@@ -6,17 +6,14 @@ using Terraria.ModLoader;
 
 namespace DogeisCutAdditions.Content.Items
 {
-    // This is a basic item template.
-    // Please see tModLoader's ExampleMod for every other example:
-    // https://github.com/tModLoader/tModLoader/tree/stable/ExampleMod
     public class DeveloperHousePlacer : ModItem
     {
 
         public override void SetStaticDefaults() {
-            ItemID.Sets.GamepadWholeScreenUseRange[Type] = true; // This lets the player target anywhere on the whole screen while using a controller
+            ItemID.Sets.GamepadWholeScreenUseRange[Type] = true;
             ItemID.Sets.LockOnIgnoresCollision[Type] = true;
 
-            ItemID.Sets.StaffMinionSlotsRequired[Type] = 1f; // The default value is 1, but other values are supported. See the docs for more guidance. 
+            ItemID.Sets.StaffMinionSlotsRequired[Type] = 1f;
         }
 
         public override void SetDefaults() {
@@ -26,7 +23,7 @@ namespace DogeisCutAdditions.Content.Items
             Item.height = 32;
             Item.useTime = 36;
             Item.useAnimation = 36;
-            Item.useStyle = ItemUseStyleID.Swing; // how the player's arm moves when using the item
+            Item.useStyle = ItemUseStyleID.Swing;
             Item.rare = ItemRarityID.Cyan;
 
             Item.noMelee = true;
