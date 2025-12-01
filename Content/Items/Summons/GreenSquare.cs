@@ -20,7 +20,7 @@ namespace DogeisCutAdditions.Content.Items.Summons
         }
 
         public override void SetDefaults() {
-            Item.damage = 30;
+            Item.damage = 60;
             Item.knockBack = 3f;
             Item.mana = 10;
             Item.width = 30;

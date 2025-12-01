@@ -7,6 +7,7 @@ using Terraria.ModLoader;
 
 namespace DogeisCutAdditions.Content.Projectiles.Minions
 {
+	//TODO: Aim prediction (projectile tradjectory, and predicted enemy trajectory).
 	public class PolyTankMinion : ModProjectile
 	{
         private float orbitAngle;
