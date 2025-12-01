@@ -45,6 +45,8 @@ namespace DogeisCutAdditions.Content.Items
 
                     bool border = x == 0 || x == 5 || y == 0 || y == 9;
 
+                    WorldGen.KillTile(tileX, tileY, false, false, true);
+                    WorldGen.KillWall(tileX, tileY, false);
                     if (border)
                     {
                         WorldGen.PlaceTile(tileX, tileY, TileID.Platforms, false, false, -1, 0);
