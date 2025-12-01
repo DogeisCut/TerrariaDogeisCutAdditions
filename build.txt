@@ -1,0 +1,3 @@
+displayName = DogeisCut Additions
+author = DogeisCut
+version = 0.1

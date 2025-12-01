@@ -1,0 +1,65 @@
+# This file will automatically update with entries for new content after a build and reload.
+
+Items: {
+	ChunkDeleter: {
+		DisplayName: ChunkDeleter
+		Tooltip:
+			'''
+			Similar to that of the errors
+			commonly seen in another game...
+			'''
+	}
+
+	GreenSquare: {
+		DisplayName: Green Square
+		Tooltip:
+			'''
+			Summons a polygonal tank to
+			fight for you
+			'A one in a million chance!'
+			'''
+	}
+
+	UltimatePurifier: {
+		DisplayName: Ultimate Purifier
+		Tooltip: ""
+	}
+
+	DeveloperHousePlacer: {
+		DisplayName: Developer House Placer
+		Tooltip: ""
+	}
+
+	JasperCostume: {
+		DisplayName: Jasper Costume
+		Tooltip: ""
+	}
+
+	JasperCostumeBody: {
+		DisplayName: Jasper Costume Body
+		Tooltip: ""
+	}
+
+	JasperCostumeHead: {
+		DisplayName: Jasper Costume Head
+		Tooltip: ""
+	}
+
+	JasperCostumeLegs: {
+		DisplayName: Jasper Costume Legs
+		Tooltip: ""
+	}
+}
+
+Buffs: {
+	PolyTankBuff: {
+		DisplayName: Poly Tank
+		Description: The poly tank will fight for you
+	}
+}
+
+Projectiles: {
+	PolyTankMinion.DisplayName: Poly Tank Minion
+	PolyTankMinionBullet.DisplayName: Poly Tank Minion Bullet
+	UltimatePurifierProjectile.DisplayName: Ultimate Purifier Projectile
+}
