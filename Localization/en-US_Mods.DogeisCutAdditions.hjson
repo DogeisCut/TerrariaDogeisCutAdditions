@@ -45,6 +45,11 @@ Items: {
 		DisplayName: Jasper Costume Legs
 		Tooltip: ""
 	}
+
+	JasperCostumeWings: {
+		DisplayName: Jasper Costume Wings
+		Tooltip: ""
+	}
 }
 
 Buffs: {
